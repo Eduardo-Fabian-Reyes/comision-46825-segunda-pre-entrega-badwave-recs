@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: #FFD4FF;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #E5AFE3;
+    }
+    .navbar{
+        background-color: #E5AFE3;
+        list-style: none;
+        display: flex;
+        font-family: 'Saira', sans-serif;
+        font-size: 4rem;
+        gap: 6.25rem;
+    }
+    .navbar li a{
+        color: #13101C;
+        text-decoration:none;
+        text-align: center;
+    }
+    .section-catalogo{
+        width: 100%;
+        height: 45.25rem;
+        background-image: url(../assets/img/catalogo-home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .section-catalogo div a button{
+        background-color: rgba(229, 175, 227, 0.39);
+        color: #13101C;
+        font-family: 'Saira', sans-serif;
+        font-size: 3rem;
+        border-style: none;
+        padding: 1rem 1.5rem;
+        cursor: pointer;
+    }
+    .section-news div a button{
+        background-color: rgba(229, 175, 227, 0.39);
+        color: #13101C;
+        font-family: 'Saira', sans-serif;
+        font-size: 3rem;
+        border-style: none;
+        padding: .1rem 1.5rem;
+        cursor: pointer;
+    }
+    .section-merch div a button{
+        background-color: rgba(229, 175, 227, 0.39);
+        color: #13101C;
+        font-family: 'Saira', sans-serif;
+        font-size: 3rem;
+        border-style: none;
+        padding: .1rem 1.5rem;
+        cursor: pointer;
+    }
+    .newsmerch{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .section-news div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-news{
+        display: flex;
+        width: 100%;
+        height: 42.25rem;
+        background-image: url(../assets/img/news-home.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        justify-content: center;
+        align-content: flex-start;
+    }
+    .section-merch{
+        display: flex;
+        width: 100%;
+        height: 42.25rem;
+        background-image: url(../assets/img/merch-home.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        justify-content: center;
+        align-content: flex-start;
+    }
+    .section-merch div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex-bandas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        gap: 1rem;
+        justify-content: center;
+        margin-bottom: 2.5rem;
+    }
+    .flex-bandas h1{
+        width: 100%;
+        font-family:'Saira', sans-serif;
+        font-size: 4rem;
+        text-align: center; 
+    }
+    .flex-bandas1{
+        background-image: url(../assets/img/turnstile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 45%;
+        height: 14.15rem;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .flex-bandas2{
+        background-image: url(../assets/img/deftones.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 45%;
+        height: 14.15rem;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .flex-bandas3{
+        background-image: url(../assets/img/loquero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 45%;
+        height: 14.15rem;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .flex-bandas4{
+        background-image: url(../assets/img/title-fight.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 45%;
+        height: 14.15rem;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+    .flex-bandas1 a button{
+        background-color: rgba(229, 175, 227, 0.39);
+        color: #13101C;
+        font-family: 'Saira', sans-serif;
+        font-size: 1.5rem;
+        border-style: none;
+        padding: 1rem 1.5rem;
+        cursor: pointer;
+    }
+    .flex-bandas2 a button{
+        background-color: rgba(229, 175, 227, 0.39);
+        color: #13101C;
+        font-family: 'Saira', sans-serif;
+        font-size: 1.5rem;
+        border-style: none;
+        padding: 1rem 1.5rem;
+        cursor: pointer;
+    }
+    .flex-bandas3 a button{
+        background-color: rgba(229, 175, 227, 0.39);
+        color: #13101C;
+        font-family: 'Saira', sans-serif;
+        font-size: 1.5rem;
+        border-style: none;
+        padding: 1rem 1.5rem;
+        cursor: pointer;
+    }
+    .flex-bandas4 a button{
+        background-color: rgba(229, 175, 227, 0.39);
+        color: #13101C;
+        font-family: 'Saira', sans-serif;
+        font-size: 1.5rem;
+        border-style: none;
+        padding: 1rem 1.5rem;
+        cursor: pointer;
+    }
+    .text-center{
+        background-color: #13101C;
+        color: #FFD4FF;
+        font-family: 'Saira', sans-serif;
+        width: 100%;
+    }
+    .card-text{
+        color: #FFD4FF;
+        font-family: 'Saira', sans-serif;
+    }
+    .card-body{
+        background-color: #13101C;
+    }
+    footer{
+        background-color: #13101C;
+        background-position: center;
+        text-align: center;
+        font-family: 'Saira', sans-serif;
+        font-size: 2.25rem;
+        color: #8F78E6;
+        list-style: none;
+    }
+    .footerizq{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: row;
+        padding-left: 1.875rem;
+    }
+    .footerder{
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: end;
+        list-style: none;
+        margin-top: -5.9375rem;
+        padding-right: 1.875rem;
+    } 
+    @media (max-width: 2560px){
+        .section-catalogo{
+            background-size: cover;
+            height: 47.8rem;
+        }
+        .section-news{
+            background-size: cover;
+            height: 32.8rem;
+            width: 100%;
+        }
+        .section-merch{
+            background-size: cover;
+            height: 32.8rem;
+            width: 100%;
+        }
+        .flex-bandas1{
+            height: 40.15rem
+        }
+        .flex-bandas2{
+            height: 40.15rem
+        }
+        .flex-bandas3{
+            height: 40.15rem
+        }
+        .flex-bandas4{
+            height: 40.15rem
+        }
+        footer{
+            padding-top: 3.125rem;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center; 
+        }
+        .flex-item0{
+            width: 50%;
+        }
+        .flex-item1{
+            width: 50%;
+        }
+        .copyright{
+            width: 100%;
+        }
+        .flex-item0 a img{
+            width: 50%;
+        }
+        .flex-item1 a img{
+            width: 15%;
+        }
+    }
+    @media (max-width: 1440px){
+        .navbar{
+            font-size: 4rem;
+            gap: 2rem;
+        }
+        .section-catalogo{
+            background-size: cover;
+            height: 27.15rem;
+        }
+        .newsmerch{
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .section-news{
+            background-size: cover;
+            height: 23.15rem;
+            width: 50%;
+        }
+        .section-merch{
+            background-size: cover;
+            height: 23.15rem;
+            width: 50%;
+        }
+        .flex-bandas1{
+            height: 22.15rem;
+        }
+        .flex-bandas2{
+            height: 22.15rem;
+        }
+        .flex-bandas3{
+            height: 22.15rem;
+        }
+        .flex-bandas4{
+            height: 22.15rem;
+        }
+        footer{
+            padding-top: 3.125rem;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center; 
+        }
+        .flex-item0{
+            width: 50%;
+        }
+        .flex-item1{
+            width: 50%;
+        }
+        .copyright{
+            width: 100%;
+        }
+        .flex-item0 a img{
+            width: 50%;
+        }
+        .flex-item1 a img{
+            width: 15%;
+        }
+    }
+    @media(max-width: 1024px){
+        header div a img{
+            width: 100%;
+        }
+        .navbar{
+            font-size: 3rem;
+            gap: 2rem;
+        }
+        .section-catalogo{
+            background-size: cover;
+            height: 24.15rem;
+        }
+        .newsmerch{
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .section-news{
+            background-size: cover;
+            height: 17.15rem;
+            width: 50%;
+        }
+        .section-merch{
+            background-size: cover;
+            height: 17.15rem;
+            width: 50%;
+        }
+        .section-catalogo div a button{
+            font-size: 2rem;
+            border-style: none;
+            padding: 1rem 1.5rem;
+        }
+        .section-news div a button{
+            font-size: 2rem;
+            border-style: none;
+            padding: .1rem 1.5rem;
+        }
+        .section-merch div a button{
+            font-size: 2rem;
+            border-style: none;
+            padding: .1rem 1.5rem;
+        }
+        footer{
+            padding-top: .9375rem;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+        }
+        .flex-item0{
+            width: 50%;
+        }
+        .flex-item1{
+            width: 50%;
+        }
+        .copyright{
+            width: 100%;
+        }
+    }
+    @media(max-width: 768px){
+        header div a img{
+            width: 24rem;
+            margin-left: 0.15rem;
+        }
+        .navbar{
+            font-size: 2rem;
+            gap: 2rem;
+        }
+        .section-catalogo{
+            background-size: cover;
+            height: 22.15rem;
+        }
+        .newsmerch{
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .section-news{
+            background-size: cover;
+            height: 22.15rem;
+            width: 100%;
+        }
+        .section-merch{
+            background-size: cover;
+            height: 22.15rem;
+            width: 100%;
+        }
+        footer{
+            padding-top: .9375rem;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+        .flex-item0 a img{
+            width: 60%;
+        }
+        .flex-item1 a img{
+            width: 15%;
+        }
+    }
+    @media(max-width: 425px){
+        header div a img{
+            width: 12rem;
+            margin-left: 0.15rem;
+        }
+        .navbar{
+            font-size: 1rem;
+            gap: 2rem;
+        }
+        .section-catalogo{
+            background-size: cover;
+            height: 13.15rem;
+            background-position: center;
+        }
+        .newsmerch{
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .section-news{
+            background-size: cover;
+            height: 13.15rem;
+        }
+        .section-merch{
+            background-size: cover;
+            height: 13.15rem;
+        }
+        .section-catalogo div a button{
+            font-size: 1rem;
+            border-style: none;
+            padding: 1rem 1.5rem;
+        }
+        .section-news div a button{
+            font-size: 1rem;
+            border-style: none;
+            padding: .1rem 1.5rem;
+        }
+        .section-merch div a button{
+            font-size: 1rem;
+            border-style: none;
+            padding: .1rem 1.5rem;
+        }
+        .flex-bandas{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            margin: 0 auto;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 2.5rem;
+            align-items: center;
+            margin-bottom: 1rem;
+            }
+        .flex-bandas h1{
+            font-size: 2rem;
+        }
+        .flex-bandas1{
+            width: 70%;
+            height: 10.15rem;
+            background-position: center;
+        }
+        .flex-bandas2{
+            width: 70%;
+            height: 10.15rem;
+            background-position: center;
+        }
+        .flex-bandas3{
+            width: 70%;
+            height: 10.15rem;
+            background-position: center;
+        }.flex-bandas4{
+            width: 70%;
+            height: 10.15rem;
+            background-position: center;
+        }
+        footer{
+            padding-top: .9375rem;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            font-size: 1rem;
+        }
+        .flex-item0{
+            width: 100%;
+        }
+        .flex-item a img{
+            flex: 10%;
+        }
+        .flex-item1{
+            width: 100%;
+        }
+        .copyright{
+            width: 100%;
+        }
+        .flex-item0 a img{
+            width: 60%;
+        }
+        .flex-item1 a img{
+            width: 15%;
+        }
+        }
+        @media (max-width:375px){
+            .navbar{
+                font-size: 1rem;
+                gap: .5rem;
+            }
+            footer{
+                font-size: 1rem;
+            }
+            .flex-item0 a img{
+                width: 60%;
+            }
+            .flex-item1 a img{
+                width: 15%;
+            }
+        }
+        @media (max-width: 320px){
+            header div a img{
+            width: 10rem;
+            margin-left: 0.15rem;
+        }
+        .navbar{
+            font-size: 1rem;
+            gap: .5rem;
+        }
+        .section-catalogo{
+            background-size: cover;
+            height: 13.15rem;
+            background-position: center;
+        }
+        .newsmerch{
+            flex-direction: column;
+            flex-wrap: wrap;
+            background-position: center;
+        }
+        .section-news{
+            background-size: cover;
+            height: 13.15rem;
+        }
+        .section-merch{
+            background-size: cover;
+            height: 13.15rem;
+            background-position: center;
+        }
+        footer{
+            font-size: 1rem;
+        }
+        .flex-item0 a img{
+            width: 65%;
+        }
+        .flex-item1 a img{
+            width: 15%;
+        }
+        }
